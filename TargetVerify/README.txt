@@ -65,7 +65,7 @@ Usage Examples:
 - If you are not using a proxy:
   python TargetVerification.py -f <filename.txt> 
 
-- If you're using a proxy:
+- If you are using a proxy:
   python TargetVerification.py -f <filename.txt> -p
 
 (replace filename.txt with your input file with URLs to verify)
