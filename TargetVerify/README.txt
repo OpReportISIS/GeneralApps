@@ -55,14 +55,6 @@ If you are using a proxy, set its values in TargetVerification.py.
 === 4. EXECUTION
 
 Execute "python TargetVerification.py -h" to show help.
-
-usage: TargetVerification.py [-h] [-f INPUT_FILE] [-p]
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -f INPUT_FILE, --input_file INPUT_FILE
-                        The file with URLs to check
-  -p, --use_proxy       Enable the use of proxy
   
 Usage Examples:
 
