@@ -27,6 +27,7 @@ Please wait until the dialog box is displayed, before you scroll down the page t
 === 2. REQUIREMENTS
 
 Install
+
 i.  Python 2.7.
 
 ii. Splinter:
