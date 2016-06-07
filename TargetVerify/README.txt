@@ -25,22 +25,22 @@ ii. If the URL is in ID format (see below), auto redirect the user to the userna
 Install
 i.  Python 2.7.
 
-ii. Splinter
+ii. Splinter:
 
-    UNIX:
-    Follow instructions : http://splinter.readthedocs.org/en/latest/install.html
+UNIX:
+Follow instructions : http://splinter.readthedocs.org/en/latest/install.html
 
-    WINDOWS:
-    Get the zip : https://github.com/cobrateam/splinter/archive/master.zip unzip on your disk, open a terminal (start menu -> type cmd -> launch cmd.exe) go in the folder you unzip splinter (cd XXXX) launch 'python setup.py install'
+WINDOWS:
+Get the zip : https://github.com/cobrateam/splinter/archive/master.zip unzip on your disk, open a terminal (start menu -> type cmd -> launch cmd.exe) go in the folder you unzip splinter (cd XXXX) launch 'python setup.py install'
 
-iii.PyQt4
+iii.PyQt4:
 
-    LINUX:
-    http://pythoncentral.io/install-pyside-pyqt-on-windows-mac-linux/
+LINUX:
+http://pythoncentral.io/install-pyside-pyqt-on-windows-mac-linux/
 
-    WINDOWS
-    http://pythoncentral.io/install-pyside-pyqt-on-windows-mac-linux/
-    https://riverbankcomputing.com/software/pyqt/download
+WINDOWS
+http://pythoncentral.io/install-pyside-pyqt-on-windows-mac-linux/
+https://riverbankcomputing.com/software/pyqt/download
 
 
 === 3. CONFIGURATION
@@ -61,6 +61,7 @@ optional arguments:
   -p, --use_proxy       Enable the use of proxy
   
 Usage Examples:
+
 - If you are not using a proxy:
   python TargetVerification.py -f <filename.txt> 
 
