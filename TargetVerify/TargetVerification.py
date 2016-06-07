@@ -24,7 +24,7 @@ except:
 # Proxy Settings - Set the values here if you're using a proxy
 #-----------------------------------------------------------------------
 
-# *** NOTE: The use of proxy can be enabled by command: python TargetVerify.py -p
+# *** NOTE: The use of proxy can be enabled by command: python TargetVerification.py -p
 proxyIP = ''
 proxyPort = 0
 
@@ -129,7 +129,7 @@ def main():
         # If user has not set the -f in the command line argument, exit the script execution
         if not input_file:
             print "\nPlease enter -f in the command:"
-            print "\npython TargetVerify.py -f <filename.txt>\n(replace the .txt with the filename with URLs to check)\n"
+            print "\npython TargetVerification.py -f <filename.txt>\n(replace the .txt with the filename with URLs to check)\n"
             sys.exit()
 
         # Create a new instance of Firefox browser
