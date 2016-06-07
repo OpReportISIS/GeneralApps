@@ -18,7 +18,11 @@ i.  Skip the URL and move to the next target if the account is suspended or deac
 
 ii. If the URL is in ID format (see below), auto redirect the user to the username page so that he/she could verify tweets.
 https://twitter.com/intent/user?user_id=xxxxxxxxx
-   
+
+REMINDER
+--------
+Please wait until the dialog box is displayed, before you scroll down the page to check for ISIS contents. Or else, the dialog box might hide behind your browser.
+
    
 === 2. REQUIREMENTS
 
