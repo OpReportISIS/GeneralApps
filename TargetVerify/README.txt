@@ -27,15 +27,15 @@ i.  Python 2.7.
 
 ii. Splinter:
 
-UNIX:
+UNIX
 Follow instructions : http://splinter.readthedocs.org/en/latest/install.html
 
-WINDOWS:
+WINDOWS
 Get the zip : https://github.com/cobrateam/splinter/archive/master.zip unzip on your disk, open a terminal (start menu -> type cmd -> launch cmd.exe) go in the folder you unzip splinter (cd XXXX) launch 'python setup.py install'
 
 iii.PyQt4:
 
-LINUX:
+LINUX
 http://pythoncentral.io/install-pyside-pyqt-on-windows-mac-linux/
 
 WINDOWS
