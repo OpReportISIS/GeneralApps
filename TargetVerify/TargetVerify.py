@@ -58,13 +58,13 @@ class VerifyTarget(QtGui.QDialog):
 
         browser.visit(url)
 
-        # If the Twitter account is suspended
+        # If the Twitter account is suspended, move to next target
         if "https://twitter.com/account/suspended" in browser.url:
             print "(suspended)"
             with open("log_error.txt", "a") as log:
                 log.write("%s\n" % url)
 
-        # If the Twitter user account is deactivated or changed name
+        # If the Twitter account is deactivated or changed name, move to next target
         elif browser.is_element_present_by_css('.search-404'):
             print "(deleted)"
             with open("log_error.txt", "a") as log:
