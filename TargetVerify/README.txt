@@ -14,7 +14,7 @@ It accepts any URLs such as website, Facebook, Instagram etc.
 - One URL per line.
 
 If the URL is Twitter, the script will:
-i.  Skip the URL and move to the next target if the account is suspended or deactivated/changed name.
+i.  If the account is suspended or deactivated/changed name, skip it and move to the next target.
 
 ii. If the URL is in ID format (see below), auto redirect the user to the username page so that he/she could verify tweets.
 https://twitter.com/intent/user?user_id=xxxxxxxxx
